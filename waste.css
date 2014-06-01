@@ -1,0 +1,37 @@
+/* CSS declarations go here */
+  
+  body { width: 90%; background-color: #3355FF; margin: 0 auto; font-family: arial; }
+  
+  h3    { font-family: arial; font-size: 8pt; margin: 0; padding: 16px 0px 8px 0px; }
+  small { font-family: arial; font-size: 6pt; }
+  
+  #toparea    { width: 100%; color: #FFFFFF; overflow: auto; }
+  #toparea *  { display: inline-block;}
+  #toparea ul { margin: 10px 0 10px 0; border: 0; padding: 0; }
+  #toparea li { margin: 0 20px 0 20px; }
+  #toparea ul.left   { width: 280px; font-size: 12pt; }
+  #toparea ul.center { width: 420px; font-size:  8pt; }
+  #toparea ul.right  { width: 300px; font-size:  8pt; }
+  
+  #mainarea   { width: 100%-40px; background-color: #FFFFFF; font-size: 8pt; overflow: hidden; padding: 0 20px; clear: left; }
+  
+  #leftarea   { width:330px; background-color: #FFFFFF; color: #808080; float: left; padding: 0  0px; margin: 0 10px 0 0; } 
+  #centerarea { width:330px; background-color: #FFFFFF; color: #808080; float: left; padding: 0  0px; margin: 0 10px 0 0; }
+  #rightarea  { width:275px; background-color: #B2B2B2; color: #FFFFFF; float: left; padding: 0 10px; margin: 0 10px 0 0; }
+
+  #mainarea ul { margin: 0; border: 0; padding: 0; }
+  #mainarea li { margin: 0; border: 0; padding: 0; background-color: #EEEEEE; color: #808080; list-style-type: none;}
+  
+  #mainarea ul.element > li     { margin: 0 0 10px 0; border: 1px solid #0084D1; padding: 5px; }
+  #mainarea ul.societies > li   { margin: 0;          border: 1px solid #0084D1; padding: 5px; }
+
+  #mainarea .centeralign { text-align: center; }
+  #mainarea .blue { max-width: 140px; background-color: #0084D1; color: #FFFFFF; 
+                    font-family: arial; font-size: 8pt; font-weight:bold; 
+                    margin: 0 0 10px 0; border: 1px solid #9999FF; padding: 5px 10px; }  
+                    
+  #mainarea textarea.element { margin: 0 0 10px 0; border: 1px solid #0084D1; padding: 5px; background-color: #EEEEEE; color: #808080;}
+  #message { width: 280;}
+
+  #footer { font-size: 6pt; color: #FFFFFF; text-align: center; clear: both; }
+  

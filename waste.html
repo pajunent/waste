@@ -1,0 +1,178 @@
+<head>
+  <title>Waste reducing society</title>
+</head>
+
+<body>
+  <div id="toparea">
+    <ul class="left">
+      <li><b>OPEN</b>SOCIETY</li>
+    </ul>
+    <ul class="center">
+      <li>HOME</li> <li><u><b>SOCIETIES</b></u></li> <li>DATA</li> <li>ACCOUNT</li>
+    </ul>
+    <ul class="right">
+      <li>SETTINGS</li> <li>LOGOUT <u>MARK SPRINGFIELD</u></li>
+    </ul>
+  </div>
+  
+  <div id="mainarea">
+     <div id="leftarea"  > {{>leftareacontent}}   </div>
+     <div id="centerarea"> {{>centerareacontent}} </div>
+     <div id="rightarea" > {{>rightareacontent}}  </div>
+  </div>
+  
+  <div id="footer"> OpenSociety 2014- . Free for everyone to understand and modify </div>
+</body>
+
+<template name="leftareacontent">
+  <h3> MY SOCIETY </h3>
+  <ul class="element"> 
+    <li><b> Waste society </b> </li>
+    <li><b> Members (9 members) </b>
+      <ul>
+        <li> - Sampo </li>
+        <li> - Panu </li>
+        <li> - Anna </li>
+        <li> - Giorgos </li>
+        <li> - Laura </li>
+        <li> - Mikko </li>
+        <li> - Mikon talouden toinen henkilö </li>
+        <li> - Arto </li>
+        <li> - Tuomas </li> 
+      </ul>
+    </li>
+    <li><b> Responsibilities </b>
+      <ul>
+        <li> 1. Pay 2€ / bag (10 liter container) of your own unsorted waste </li>
+        <li> 2. You can reduce (down to a minimun of 0 bags) your taxed waste amount by collecting (unsorted/sorted waste) from the streets: 1 bag collected = -1 bag unsorted waste </li>
+      </ul>
+    </li>
+    <li><b> Community accounting </b>
+      <ul> <code>
+        <li> +0.11 Sampo </li>
+        <li> +0.00 Panu </li>
+        <li> +0.11 Anna </li>
+        <li> -0.89 Giorgos </li>
+        <li> -0.89 Laura </li>
+        <li> +0.11 Mikko </li>
+        <li> +0.11 Mikon talouden toinen henkilö </li>
+        <li> +0.11 Arto </li>
+        <li> +0.00 Tuomas </li> 
+        <li> +1.23 Community (donations from Tuomas and Panu, rounding error goes to the benefit of the community) </li> 
+      </code></ul>
+    </li>
+  </ul>
+  <div class="centeralign"> <button class="blue" type="button">Suggest a new rule</button> </div>
+  
+
+  <ul class="element">
+    <li> <b> Benefits </b> 
+      <ul>
+        <li> At the end of test period, we meet and the collected "rubbish tax" is shared evenly. </li>
+        <li> People with smaller amounts of unsorted waste benefit the most. </li>
+        <li> It is suggested, that you use your share of the tax in some waste-reducing way, ideas can be listed here (under). </li>
+      </ul>
+    </li>
+  </ul>
+  
+  <div class="centeralign"> <button class="blue" type="button">Suggest a new benefit</button> </div>
+  
+  <ul class="element">
+    <li> <b> Interface to other societies </b> </li>
+  </ul>
+
+  <div class="centeralign"> <button class="blue" type="button">Suggest a new Interface element</button> </div>
+  
+</template>
+
+
+<template name="centerareacontent">
+  <h3> FORUM </h3>
+  <ul class="element">
+    <li> Should we widen our experiment to sorted waste? 0,50€ for biowaste? </li>
+    <li> There is two ultimate goals: (1) to reduce waste and (2) to recycle all the waste, rigth? 
+         The next question is, what waste is more harmful than other. 
+         I would not consider biowaste that important (because it can and should be turned into dirt). 
+         But sure, why not widen the experiment right away. -MK 
+    </li>
+    <li> Nice initiative. There is a difference between reducing waste and recycling waste.
+         See this example: I go to the supermarket. I use my money to buy all the potatoes (cheapest food - food of the poor).
+         I store the potatoes in my storage. They rot away. Then, I recycle them as biowaste. What have i done?
+         I bought extra food that i did not need, depriving it off the poor. 
+         Then I got the ethical and efficient solution to recycle it. 
+         Conclusion: Recycling makes sense only in tandem with reducing waste in the first place = buying what is really necessary.
+         Reducing waste must be counted as well in relation to what i need. 
+         (this is a very traditional example, put forward by John Locke to support that there is a moral obligation -legal too?- not to waste)
+    </li>
+    <li> In the district Vuores (near Hervanta) there is this specific system to collect waste. 
+         I think you need a id card or password to put trash in the waste system. 
+         http://www.tampere.fi/vuores/palvelut/jatehuolto.html
+         Maybe this idea could be used there with more precision?
+    </li>
+    <li> Since it's our first trial, a lot of thoughts, ideas and discussion would be welcome. 
+         I think we could benefit from all kinds of notations, such as "I think I could fit a little bit more in that rubbish bag"
+         or "I start to think, how I could reuse all the plastic items". -Sampo
+    </li>
+    <li> Trust is obviously a significant factor in this experiment: flushing waste down the toilet, 
+         use other peoples rubbish bins or even throwing some on the streets should not occur.
+    </li>
+    <li> Benefits - why would I wanna use this system?
+         - Might help me reduce my waste (-> saattaa vähentää jätemaksua. Lisäsi MK)
+         - I can pay to fix all the harm I've caused to the nature with my waste, and feel relieved
+         - Less plastic waste into the seas (Just watch those documents and you'll cry...) -MK
+    </li>
+    <li> Thoughts of the day: 
+         - am I motivated enough to take a single useless US-standard power cable 
+           to the closest electrical waste sorting centre some 1,5 km away? 
+         - After moving back to my home I've also sorted out 3 large Clas Ohlson -boxes of various small items, 
+           that I don't need anymore. For some items the flea market would be the right place, 
+           but I'm not sure if every piece is worth putting a price tag on it. 
+           It's also stressful to find a new owner for each one. 
+           I'm afraid the recycling room of my house wouldn't work out too well, since few people check it for new stuff.
+         - To help finding new owners for the (still perfectly good functioning) stuff I don't need anymore, 
+           I'll list the items and let you know in case you might need some of them. 
+           (Later on I found the listing of items quite a lot of work. Perhaps one day.)
+    </li>
+    <li> Eeva didn't want to participate because she thought she has no way of reducing her waste.
+         (Even though I (Panu) think that it wouldn't be necessary for participating.)
+    </li>
+    <li> We emptied our trash cans just before the test started! </li>
+    <li> I didn't, but it's ok. Anyway there's enough variation from week to week. </li>
+    <li> Home and job trashes should these combine. </li>
+    <li> Not much rubbish from Arto. </li>
+    <li> Sometimes I think about putting my trash away on the bins on the streets so that I wouldn't bring them home. </li>
+    <li> Can I subract my saldo if I recycle my flatmates' mixed trash? Or take trash away from streets. </li>
+    <li>Chocolate is usually better than candy, because the foil and paper you can recycle, but the plastic bag is harder. </li>
+    <li>
+    What motivates to reduce waste during the prototype...
+    - Recognition that others are doing it too, competition, or something (Tuomas)
+    - Just the recognition that I'm paying for the waste, even though it's a very small payment
+    - (The payment)
+    </li>
+    <li>I'd like to use the money for "fixing my mistakes" - reducing the waste at the waste management place. I'd like the payment to be so big that it would suffice to reduce all the bad environmental impact that my waste causes. (If the payment wouldn't be too big.) </li>
+    <li>Having salad for dinner is dangerous - so much waste caused by one meal. Recycling the plastic bags meant for fruits and veggies is a good idea, but there's other waste too! </li>
+    <li>Next development stages?</li>
+    <li>Include recycled waste</li>
+    <li>Payments put somewhere to reduce the harms caused by the waste?</li>
+  </ul>
+
+  <textarea class="element" rows="2" cols="40" placeholder="Type a message"></textarea>
+  <div class="centeralign"> <input class="blue" type="button" value="Send"> </div>
+</template>
+
+
+<template name="rightareacontent">
+  
+  <h3> SOCIETIES  </h3>
+  <ul class="societies"> 
+    <li><b> Waste society </b>
+      <small><ul><li> 9 participants </li></ul></small>
+    </li>
+    <li><b> Summer society </b>
+      <small><ul><li> 0 participants </li></ul></small>
+    </li>
+  </ul>
+  <p>Show all...</p>
+  <div class="centeralign"> <button class="blue" type="button">Create a new society</button> </div>
+  
+</template>
